@@ -56,13 +56,13 @@ public class KeypadManager {
     public void registerListener(IKeypadManagerListener client)
     {
         clientListeners.add(client);
-        System.out.println("Client listner has been registered...");
+        System.out.println("The CLIENT listener has been registered...");
     }
 
     public void unregisterListener(IKeypadManagerListener client)
     {
         clientListeners.remove(client);
-        System.out.println("Client has been un-registered...");
+        System.out.println("CLIENT has been un-registered...");
 
     }
 
