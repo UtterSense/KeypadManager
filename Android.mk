@@ -22,7 +22,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libdkeypad
+LOCAL_MODULE := libkeypad
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_SDK_VERSION := current
 LOCAL_SRC_FILES := build/libs/libkeypad.jar
